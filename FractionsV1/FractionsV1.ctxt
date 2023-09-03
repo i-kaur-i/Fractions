@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=FractionsV1
+comment0.text=\n\ The\ description\ of\ this\ class\ is\ that\ this\ class\ is\ used\ to\ count\ the\ number\ \n\ of\ times\ fractions\ and\ unique\ fractions\ appear.\ \n\ \n\ @author\ Iakjot\ Kaur\ \n\ @version\ April\ 6th,\ 2020\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\n\ The\ fractions\ file\ is\ opened,\ read,\ and\ stored.\ \n\ In\ the\ main\ method,\ the\ file\ is\ opened\ and\ read.\ Each\ line\ from\ the\ \n\ file\ is\ read\ and\ stored\ into\ an\ array,by\ using\ while\ loops.\n\ Used\ a\ counter\ to\ keep\ track\ of\ the\ fractions.\n\ The\ main\ method\ also\ prints\ out\ the\ count\ of\ the\ fractions,\ I\ used\ a\ for\n\ loop\ to\ go\ through\ the\ array\ and\ printed\ out\ the\ count\ if\ doesn't\ equal\ zero\n\ \n\ \n\ @params\:\ String[]\n\ @return\:\ none\n
+comment2.params=fraction
+comment2.target=java.lang.String\ simplify(java.lang.String)
+comment2.text=\n\ Simplifiyng\ the\ fractions\ and\ splitting\ them.\n\ Made\ an\ array\ to\ split\ the\ fractions,\ and\ used\ the\ .split\ for\ the\ "/".\n\ This\ made\ the\ numbers\ split\ from\ the\ "/"\n\ Stored\ the\ numerators\ and\ denomators\ as\ intergers.\ Then\ printed\ them\ out.\n\ Used\ if\ statements\ to\ simplify\ the\ fractions.\n\ \n\ \n\ @params\:\ String\n\ @return\:\ String\n
+comment3.params=fractions
+comment3.target=int[]\ numOfTimes(java.lang.String[])
+comment3.text=\n\ Method\ for\ number\ of\ times\ the\ fraction\ appears.\n\ Made\ an\ array\ just\ for\ counting\ and\ made\ the\ length\ as\ long\ as\ the\ fraction\ array\n\ Used\ a\ nested\ for\ loop,\ started\ from\ the\ top\ and\ went\ through\ the\ elements\n\ and\ if\ they\ matched,\ added\ the\ count\ and\ if\ its\ the\ same,\ it\ breaks\ and\ goes\n\ to\ the\ top\ and\ starts\ again.\ \n\ \n\ \n\ @params\:\ String[]\n\ @return\:\ int[]\n
+numComments=4
